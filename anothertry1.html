@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+	<title>anotherone</title>
+
+<style type="text/css">
+	#one {
+		text-align: center;
+		font-stretch: 2px;
+		font-style: italic;
+	}
+	#jumboform {
+		width: 50%;
+	}
+	#jumboform1 {
+		width: 50%;
+	}
+	#navone {
+		padding: 10px;
+		font-size: 25px;
+		font-weight: 800;
+		letter-spacing: 3px;
+	}
+/*	.nav-link:hover {
+		color: #eaf514;
+		padding: 3px;
+	}	*/
+	#coltf {
+		font-size: 20px;
+	}
+	#anetm {
+		padding: 22px;
+		margin-top: 0;
+		border: dotted;
+	}
+	#cadd {
+		padding: 10px;
+	}
+	#foota {
+		padding: 15px;
+	}
+	#btnnn {
+		margin-left: 100px;
+	}
+	#btnnnn {
+		margin-left: 80px;
+	}
+</style>	
+</head>
+<body>
+
+<!--makes the tooltip have a style effect -->
+<script>
+$(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+
+
+<!--enables all popover effects -->
+<script>
+$(document).ready(function(){
+  $('[data-toggle="popover"]').popover();
+});
+</script>
+
+
+<div class="container-fluid bg-secondary">
+	<div class="row">
+			<div class="col">
+				<div class="container" id="one">
+					<h2 class="display-4 text-success bg-dark text-info">and it's <q>TUESDAY</q></h2>
+				</div>	
+			</div>	
+			<div class="col bg-danger" id="coltf">
+				<blockquote class="text-info">first second third fourth fifth sixth seventh eight nine ten</blockquote>
+				<footer class="blockquote-footer text-info">
+					<p>numbers</p>
+				</footer>
+			</div>
+	</div>
+</div>
+
+<div class="container bg-warning sticky-top" id="navone">
+	<nav class="navbar navbar-expand-sm">
+		<ul class="navbar-nav">
+			<li class="nav-item">
+				<a class="nav-link btn btn-success" href="#">FIRST</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link btn btn-success" href="#">SECOND</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link btn btn-success" href="#">THIRD</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link btn btn-success" href="#">FOURTH</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link btn btn-success" href="#">FIFTH</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link btn btn-success" href="#">SIXTH</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link btn btn-success" href="#">SEVENTH</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link btn btn-success" href="#">EIGHTH</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link btn btn-success" href="#">NINETH</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link btn btn-success" href="#">TENTH</a>
+			</li>
+		</ul>
+	</nav>
+</div>	
+
+<br>
+
+<div class="container bg-warning" id="buttons1">
+	<div class="row">
+		<div class="col">
+			<button class="btn btn-primary">ONE</button>
+			<button class="btn btn-success">ONE</button>
+		</div>
+		<div class="col">
+			<button class="btn btn-light">ONE</button>
+			<button class="btn btn-dark">ONE</button>
+		</div>
+		<div class="col">
+			<button class="btn btn-danger btn">ONE</button>
+			<button class="btn btn-info">ONE</button>
+		</div>
+	</div>
+</div> <br> <br>
+
+
+<div class="container-fluid" id="qwe">
+	<div class="row">
+		<div class="col bg-success">
+			<button class="btn btn-danger">
+				<span class="spinner-border spinner-border-sm"></span>abc
+			</button>
+			<button class="btn btn-light">
+				<span class="spinner-grow spinner-grow-sm"></span>abcd
+			</button>
+			<button class="btn btn-dark">
+				<span class="spinner-grow spinner-grow-sm"></span>qwertyuiop
+			</button>	
+			<button class="btn btn-primary">
+				<span class="spinner-border spinner-border-sm"></span>1231
+			</button>
+			<button class="btn btn-info">
+				<span class="spinner-grow spinner-grow-sm"></span>
+				<span class="spinner-border spinner-border-sm"></span>
+			</button>
+		</div>
+		<div class="col">
+			<p><strong>Onetwothreefourfive</strong> <mark>Onetwothreefourfive</mark> <ins>Onetwothreefourfive</ins>  <del>Onetwothreefourfive</del>  <sub>Onetwothreefourfive</sub>  <sup>Onetwothreefourfive</sup></p>	
+		</div>
+	</div>
+</div>
+
+
+<div class="jumbotron">
+	<div class="row">
+		<div class="col">
+				<form class="was-validated" action="#">
+					<div class="form-group">
+						<input type="text" name="names" placeholder="Enter Names" class="form-control" required>
+					</div>
+					<div class="form-group">
+						<input type="text" name="email" placeholder="Enter Email" class="form-control" required>
+					</div>
+					<div>
+						<input type="password" name="password" placeholder="Enter Password" class="form-control" required>
+					</div>	
+					 <br>
+					<button class="btn btn-success" type="submit">Done</button>
+				</form>
+		</div>
+		<div class="col">
+				<form class="was-validated" action="#">
+					<div class="form-group">
+						<input type="text" name="names" placeholder="Enter Names" class="form-control" required>
+					</div>
+					<div class="form-group">
+						<input type="text" name="email" placeholder="Enter Email" class="form-control" required>
+					</div>
+					<div>
+						<input type="password" name="password" placeholder="Enter Password" class="form-control" required>
+					</div>	
+					 <br>
+					<button class="btn btn-success" type="submit">Done</button>
+				</form>
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid bg-info" id="anetm">
+	<div class="row">
+		<div class="col">
+			<h5><u>ONETWOTHREE</u></h5>
+			<q>onetwothreefourfivesixseveneightninetenonetwothreefourfivesixsevene</q>
+		</div>
+		<div class="col">
+			<h5><u>FOURFIVESIX</u></h5>
+			<p>fourfivesixseveneightninetenonetwothreefourfivesixseveneightnineten</p>
+		</div>
+		<div class="col">
+			<h5><u>FOURFIVESIX</u></h5>
+			<p>fourfivesixseveneightninetenonetwothreefourfivesixseveneightnineten</p>
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid bg-secondary" id="cadd">
+	<div class="row">
+		<div class="col">
+			<div class="container">
+				<div class="card">
+					<div class="card-header">
+						<h4 title="Technical" data-toggle="tooltip" data-placement="right" style="text-align: center;">TECHNICAL</h4>
+					</div>
+					<div class="card-body">
+						<p>The following process is based on chemical reagents, combined with <b>distilled water</b> and some applied heat.</p>
+					</div>
+					<div class="card-footer">The final result, who cares?</div>
+				</div>
+			</div>
+		</div>
+		<div class="col">
+			<div class="container">
+				<div class="card">
+					<div class="card-header">
+						<h4 title="Technical" data-toggle="tooltip" data-placement="bottom" style="text-align: center;">TECHNICAL</h4>
+					</div>
+					<div class="card-body">
+						<p>The following process is based on chemical reagents, combined with <b>distilled water</b> and some applied heat.</p>
+					</div>
+					<div class="card-footer">The final result, who cares?</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+<footer class="bg-dark">
+	<div class="container-fluid" id="foota">
+		<div class="row">
+				<div class="col">
+					<div class="dropup dropright">
+						<button type="button" class="btn btn-success dropdown-toggle btn-lg" 
+						data-toggle="dropdown" id="btnnn">A B C D</button>
+						<div class="dropdown-menu bg-dark">
+							<div class="dropdown-header">header1</div>
+							<p class="dropdown-item">one</p>
+							<p class="dropdown-item">two</p>
+							<div class="dropdown-header">header2</div>
+							<p class="dropdown-item">three</p>
+							<a class="dropdown-item" href="#">FOUR</a>
+							<div class="dropdown-divider"></div>
+							<p class="dropdown-item">SXBHVXHGSAgvASV</p>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<button type="button" class="btn btn-success btn-lg" data-toggle="collapse" 
+					data-target="#collapsetry" id="btnnnn" >Collapse</button>
+					<div id="collapsetry" class="collapse">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</div>
+				</div>
+				<div class="col">
+					<div class="container">
+						<a href="#" title="" data-toggle="popover" data-trigger="hover" data-content="it fucking gets better with time. dont fucking give up. dont fucking'lose any hope. keep pushing. keep pushing."><h3>LaryHover</h3></a>
+					</div>	
+				</div>
+		</div>
+	</div>
+</footer>
+
+
+
+<div class="jumbotron">
+	<div class="container">
+		<ul class="nav nav-pills" role="tablist">
+			<li class="nav-item">
+				<a href="#Homee" class="nav-link" data-toggle="pill">Homee</a>
+			</li>
+			<li class="nav-item">
+				<a href="#away" class="nav-link" data-toggle="pill">Away</a>
+			</li>
+			<li class="nav-item">
+				<a href="#neutral" class="nav-link" data-toggle="pill">Neutral</a>
+			</li>
+		</ul>
+
+		<div class="tab-content">
+			<div id="Homee" class="container tab-pane">
+				<h4>Homee</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+
+			<div id="away" class="container tab-pane">
+				<h4>Away</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+
+			<div id="neutral" class="container tab-pane">
+				<h4>Neutral</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>

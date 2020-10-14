@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">	
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<title>24072020JSdatatypes</title>
+
+<style type="text/css">
+	#he1 {
+		padding:  16px;
+	}
+</style>
+
+</head>
+<body>
+
+<div class="container-fluid bg-light" id="he1">
+	<h2 class="text-center display-3">JS Data Types</h2>
+</div>
+<div class="container-fluid">
+	<div class="container text-center">
+		<p>With today, will try to atleast cover a topic.</p> <br/>
+		<p>God is good, good God.</p>
+	</div>
+</div>
+
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col border border-warning">
+			<div class="container-fluid">
+				<h4 class="text-center display-4"></u>JSdatatypes</u></h4>
+
+				<p><u>Adding number and string, string and number</u></p>
+
+				<p id="strNns"></p>
+				<p id="nsNstr"></p>
+				<script type="text/javascript">
+					var c = 16 ;
+					var s = 9 ;
+					var p = "abcd" ;
+					var q = c + s + p ;
+					var f = p + s + c ;
+
+				document.getElementById('strNns').innerHTML = q + " " + "number and string" ;	
+				document.getElementById('nsNstr').innerHTML = f + " " + "string and number" ;
+				</script>
+
+				<h5 class="display-4">JS Conditional Statements</h5>
+
+				<p id="ef"></p>
+				<p id="esl"></p>
+				<p id="sesif"></p>
+
+				<script type="text/javascript">
+					var a = 1 ;
+					var b = 2 ;
+					var c = 3 ;
+					var d = 4 ;
+
+					if ( a<b ) {
+						document.getElementById('ef').innerHTML = "if statement" ;
+					}
+
+					if ( a>b ) {
+						document.getElementById('esl').innerHTML = "else statement8" ;
+					} else {
+						document.getElementById('esl').innerHTML = "else statement7" ;
+					}
+
+					if ( a>b ) {
+						document.getElementById('sesif').innerHTML = "else if statement1" ;
+					} else if ( d==c ) {
+						document.getElementById('sesif').innerHTML = "else if statement2" ;
+					} {
+						document.getElementById('sesif').innerHTML = "else if statementORGN" ;
+					}
+				</script>
+			</div>
+		</div>
+		<div class="col border border-primary">
+			<div class="container text-right">
+				<p>Let's try no colors</p>
+			</div>
+			<div class="container">
+				<marquee>No colors, 24072020</marquee>
+			</div>
+			<p class="text-center"><b>Booleans return either true or false.</b></p>
+
+
+			<div class="container-fluid">
+				<h5>Search and replace methods.</h5>
+
+				<p id="b1tn">The earth revolves on its own axis.</p>
+				<button class="btn border border-dark" type="button" onclick="t1()">Bonyeza</button>
+
+				<script type="text/javascript">
+					function t1() {
+					 	// body...
+					 	var abc = "The earth revolves on its own axis." ;
+					 	var abc1 = abc.replace( "revolves" , "rotates" );
+
+					 document.getElementById('b1tn').innerHTML = abc1 ;	
+					 } 
+				</script>
+
+				<p class="text-center"><u>Other string methods</u></p>
+
+				<p id="txtlh"></p>
+
+			</div>
+		</div>
+		<div class="col border border-danger">
+			<h5 class="display-4">String methods and properties.</h5>
+			<p>Including; length (property) , indexOf , lastIndexOf , search</p>
+
+			<p id="strlngg"></p>
+			<p id="gvas"></p>
+			<p id="indxof"></p>
+			<p id="lstof"></p>
+			<p id="srch"></p>
+			<p id="rplc"></p>
+			<p id="lstno"></p>
+			<p id="fsno"></p>
+			<script type="text/javascript">
+				var stl = "hgsxhtadoywdtcv" ;
+				var lgt = stl.length ;
+				var bc = "abcde" ;
+				var bd = bc.length ;
+				var ind = stl.indexOf("d") ;
+				var lsix = bc.lastIndexOf("d") ; 
+				var srh1 = "it is time here there round square"
+				var srh = srh1.search("here") ;
+				var lstno = stl.lastIndexOf('t' , 8 ) ;
+				var fsno0 = bc.indexOf('d' , 1 ) ;
+
+			document.getElementById('strlngg').innerHTML = lgt ;	
+			document.getElementById('gvas').innerHTML = bd ;
+			document.getElementById('indxof').innerHTML = ind ;
+			document.getElementById('lstof').innerHTML = lsix ;
+			document.getElementById('srch').innerHTML = srh ;
+			document.getElementById('lstno').innerHTML = lstno ;
+			document.getElementById('fsno').innerHTML = fsno0 ;
+			</script>
+		</div>
+	</div>
+</div>
+
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col border border-warning"></div>
+		<div class="col border border-info">
+			<div class="container-fluid">
+				<div class="container">
+					<p>JS String methods continuation</p>
+
+					<p id="slce"></p>
+					<p id="substring"></p>
+					<p id="substr"></p>
+					<p id="concat"></p>
+					<p id="rpl">here i come with love and not hatred.</p>
+					<button class="btn border border-dark" type="button" onclick="rplcea()" id="rpl1">Replace2.0</button>
+
+					<script type="text/javascript">
+						var abc = "Here I come with love and not hatred." ; 
+						var cde = "Surely goodness and mercy shall follow I" ;
+						var fgh = "All the days of my life" ;
+						var spc = "  All   " ;
+						var slce1 = abc.slice(17,21) ;
+						var substring = cde.substr(10,22) ;
+						var substr = fgh.substr(0, 15) ;
+						var concat = abc.concat(" ", cde, " ", fgh) ;
+						function  rplcea() {
+							var abc1 = "The opposite of car is cars." ;
+							var abc2 = abc1.replace("opposite","plural") ;
+
+						document.getElementById('rpl').innerHTML = abc2 ;	
+						}
+
+
+					document.getElementById('slce').innerHTML = slce1 ;	
+					document.getElementById('substring').innerHTML = substring ;
+					document.getElementById('concat').innerHTML = concat ;
+					document.getElementById('substr').innerHTML = substr ;
+					</script>
+				</div>
+			</div>
+		</div>
+		<div class="col border border-success">
+			<div class="container-fluid">
+				<div class="container">
+					<h3 class="display-4">JS Numbers</h3>
+
+					<p id="nrs1"></p>
+					<p id="nds"></p>
+					<p id="asz"></p>
+					<p id="cbn"></p>
+					<p id="bv"></p>
+
+					<script type="text/javascript">
+						var aa = 1000 ;
+						var bb = 200 ;
+						var cc = 4686 ;
+						var dd = "56" ;
+						var ee = "ohknsbs" ;
+						var ff = "1" ;
+						var aa1 = aa * cc ;
+						var vhj = bb + ff ;
+						var dx = aa * dd ;
+
+					document.getElementById('nrs1').innerHTML = aa1 ;
+					document.getElementById('nds').innerHTML = vhj ;
+					document.getElementById('asz').innerHTML = isNaN(vhj) ;	
+					document.getElementById('cbn').innerHTML = typeof(ee);
+					document.getElementById('bv').innerHTML = dx ;
+					</script>
+
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
