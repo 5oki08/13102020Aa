@@ -1,0 +1,153 @@
+* {
+		box-sizing: border-box;
+	}
+	body {
+		font-family: 'Rajdhani', sans-serif;
+		font-size: 18px;
+	}
+	#navbar {
+		border: 3px solid #0d0d0d;
+		border-left: none;
+		border-right: none;
+		border-top: none;
+		background-color: #ecefa2;
+	}
+	#nav-link {
+		text-decoration: none;
+	}
+	#nav-link:hover {
+		text-decoration: underline;
+		color: #0d0d0d;
+	}
+	#accordion {
+		border-bottom:2px solid #0d0d0d;
+	}
+	#crdaccr {
+		border: none;
+		background-color: #a7f687;
+	}
+	.card-link {}
+	.card-link:hover {
+		color: #29996e;
+	}
+	#collapseOne, #collapseTwo, #collapseThree, #collapseFour, #collapseFive {
+		background-color: #ffffff;
+		border: 10px solid #ecefa2;
+	}
+	#sgnin {
+		width: 50%;
+		margin-left: 30%;
+		border: 10px solid #4cddf5;
+		padding: 25px 25px;
+		border-radius: 10px 10px 10px 10px;
+	}
+	#usrnm {
+		border: 2.4px solid #0d0d0d;
+	}
+	#usrnm:active {
+		color: #c598d3;
+		border: 0.4px solid #0d0d0d;
+	}
+	#pswwd {
+		border: 0.2px solid #0d0d0d;
+	}
+	#pswwd:active {
+		color: #eba32c;
+		border: 2px solid #0d0d0d;
+	}
+	#submit {
+		padding: 8px 10px;
+		border: none;
+		border-radius: 8px 8px 4px 4px;
+		width: 18%;
+	}
+	#submit:hover {}
+	#reset {
+		padding: 8px 10px;
+		border: none;
+		border-radius: 8px 8px 4px 4px;
+		margin-left: 64px;
+		width: 18%;
+	}
+	#reset:hover {}
+	#rowffrt {
+		background-color: #537878;
+		padding: 30px 35px;
+	}
+	#rowffrt:hover {
+		background-color: #c882aa;
+	}
+	#ftran {
+		color: #3be8e8;
+		text-decoration: none;
+	}
+	#ftran:hover {
+		color: #6c0ed6;
+		text-decoration: underline;
+	}
+	#ftran1 {
+		color: #3be8e8;
+		text-decoration: none;
+	}
+	#ftran1:hover {
+		color: #6c0ed6;
+		text-decoration: underline;
+	}
+	#ftran2 {
+		color: #3be8e8;
+		text-decoration: none;
+	}
+	#ftran2:hover {
+		color: #6c0ed6;
+		text-decoration: underline;
+	}
+	#navbarft {
+		background-color: #c8d289;
+	}
+	#navbarft:hover {
+		background-color: #c882aa;
+	}
+	#nav-linkft {
+		text-decoration: none;
+	}
+	#nav-linkft:hover {
+		color: #ffffff;
+		text-decoration: underline;
+		text-decoration-color: #6dd938;
+	}
+	/*page2*/
+	#ktjma {
+		width: 25%;
+		margin-left: 38%;
+	}
+	#ktjma:hover {
+		display: none;
+	}
+	#imgg1 {
+		width: 71%;
+	/*	margin-left: 38px;	*/
+		border-radius: 6px 6px 6px 6px;
+	}
+	#sideimg11 {
+		margin-top: 71px;
+		margin-right: 47px;
+		letter-spacing: 1.7px;
+	}
+	#imgg2 {
+		width: 180%;
+		margin-left: 23px;
+	}
+	/*page3*/
+/*	#crddc {
+		width: 100%;
+	}	*/
+	#crdpg {
+		width: 85%;
+		padding: 20px 20px;
+	}
+	#crdpg:hover {
+		background-color: #0fcda6;
+	}
+	.card-img-top {
+		width: 100%;
+	}
