@@ -1,0 +1,111 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+#navlink {
+	border: none;
+}
+#navlink:hover {
+	border: 1.2px solid #e7f03e;
+}
+#navbg:link {
+	text-decoration: none;
+	border: 2px solid #49102c;
+	border-top: none;
+	border-left: none;
+	padding: 10px 10px;
+}
+#navbg:visited {}
+#navbg:hover {
+	text-decoration: none;
+	background-color: #ffffff;
+}
+/*Godfaithfulpage*/
+.blockquote-footer {
+	font-size: 20px;
+}
+/*nav footer*/
+#navft {
+	background-color: #2b73c1;
+}
+#navlinkft {
+	border: none;
+	color: #54de6f;
+}
+#navlinkft:hover {
+	border: 1.2px solid #e7f03e;
+}
+#navbgft:link {
+	text-decoration: none;
+	border: 2px solid #49102c;
+	border-top: none;
+	border-left: none;
+	padding: 10px 10px;
+	color: #54de6f;
+}
+#navbgft:visited {}
+#navbgft:hover {
+	text-decoration: none;
+	background-color: #ffffff;
+}
+/*page1*/
+#signinjumbo {
+	width: 37%;
+	height: 20%;
+	margin-left: 50%;
+}
+#signinjumbo:hover {
+	background-color: #81f57a;
+}
+#formsignin {
+	font-family: 'Turret Road', cursive;
+}
+#submitform1 {
+	padding: 7px 7px;
+	width: 27%;
+	border: 2px solid #140299;
+	border-radius: 3px 3px 3px 3px;
+}
+#submitform1:hover {
+	border: none;
+	background-color: green;
+}
+#resetform1 {
+	padding: 7px 7px;
+	width: 27%;
+	border: 2px solid #140299;
+	border-radius: 3px 3px 3px 3px;	
+}
+#resetform1:hover {
+	border: none;
+	background-color: red;
+}
+#welcomearea {
+	border: 15px solid #d3d3d3;
+	padding: 1.5px 1.5px;
+}
+#welcomemessage {
+	font-size: 19px;
+}
+#card1 {
+	width: 72%;
+	padding: 3px 3px;
+}
+#jumbofooter {}
+#quicklink:link {
+	color: #82f1f9;
+	text-decoration: none;
+}
+#quicklink:hover {
+	color: #6e2aa8;
+	text-decoration: none;
+}
+#imgfooter {
+	width: 170%;
+}
+#aaa {
+	transform: rotate(90deg);
+	font-size: 22px;
+}

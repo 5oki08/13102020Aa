@@ -1,0 +1,120 @@
+* {
+	box-sizing: border-box; 
+}
+body {
+	font-family: 'Work Sans', sans-serif;
+}
+.navbar {
+	border:1px solid;
+	border-top: none;
+	background-color: #ffffff;
+}
+.nav-link {
+	color: #8fbf85;
+}
+.nav-link:hover {
+	color: #d2537d;
+	border: 0.7px solid #dd6c15;
+}
+.dropdown-header {
+	text-decoration:  underline;
+}
+.dropdown-link {
+	margin-left: 37px;
+	text-decoration: none;
+	color: #0c09f7;
+}
+.dropdown-link:hover {
+	text-decoration: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #9bc7ae;
+	color: #5e835b;
+}
+#cntr1 {}
+#cntW {
+	font-size: 19px;
+}
+#ctrin {
+	background-image: url(https://wallpaperset.com/w/full/4/a/5/450556.jpg);
+	background-size: 100%;
+	background-position: center;
+	text-decoration-color: #ffffff; 
+}
+#hmm {}
+#hmmactive {}
+#lgin {
+	width: 40%;
+	margin-right: 68%;
+	margin-left: 17px;
+}
+#formenr {
+	border: 4px solid #dcdedd;
+	border-top: none;
+	border-left: none;
+	opacity: 1;
+}
+#formenr:active {
+
+}
+#usnamer {
+	width: 72%;
+	border:2px solid #c7c9c8;
+}
+#usnamer:active {}
+#inptpswd {
+	width: 72%;
+	border:2px solid #c7c9c8;
+}
+#inptpswd:active {}
+.card {}
+.card:hover {}
+#yalast {
+/*	border:2px solid #2310d1;	*/
+	background-color: #b0a2da;
+	border-radius: 19px 19px 50px 50px;
+	padding: 17px 15px;
+	height: 150%;
+	font-size: 14px;
+}
+#lsti {
+	border: none;
+}
+#lsti:hover {
+	margin-top: 45px;
+}
+#countieslist {
+	text-decoration: none;
+	margin-bottom: 6px;
+}
+#countieslist:hover {
+	text-decoration: underline;
+	text-decoration-style: solid;
+	color: #01a269;
+	font-weight: 600;
+}
+#crd11 {}
+#crd11:hover {
+	font-family: 'Architects Daughter', cursive;
+}
+#ftr3 {
+	text-align: center;
+}
+#ftr3:hover {
+	margin-top: 45px;
+}
+#ftr4 {
+	text-align: center;
+}
+#ftr4:hover {
+	margin-top: 45px;
+}
+
+
+
+
+
+
+
+
+
+...
